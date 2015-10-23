@@ -17,6 +17,7 @@
 
     }
 
+	//call iframePercent function binding with resizing and percentages
     $(document).ready(function () {
         iframePercent();
         $(window).bind('resize', iframePercent);
