@@ -1,6 +1,7 @@
     //RESIZING THE IFRAME WITH THE VIEWPORT
     function iframePercent() {
 
+		//Get the width of the current screen size
         var screen = $(window).width();
         var mobilePercent = (56 * screen) / 100;
         var desktopPercent = (35 * screen) / 100;
